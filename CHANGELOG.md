@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1](https://github.com/vasco-santos/varsig/compare/v0.1.0...v0.1.1) (2025-05-06)
+## [0.1.3](https://github.com/vasco-santos/varsig/compare/v0.1.0...v0.1.3) (2025-05-06)
 
 
 ### Bug Fixes
