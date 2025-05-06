@@ -7,7 +7,7 @@ import updateNotifier from 'update-notifier'
 import { fromString } from 'uint8arrays'
 
 import { create, verify, inspectVarsig } from './index.js'
-import { cryptoAlgorithms } from './crypto/index.js'
+import { cryptoAlgorithms } from './crypto/implementations.js'
 
 const pkg = JSON.parse(
   fs.readFileSync(new URL('../package.json', import.meta.url)).toString()
