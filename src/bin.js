@@ -37,6 +37,13 @@ cli
      */
     async (message, opts) => {
       const { out, algo, key: keyInput } = opts
+      if (algo === 'rsa') {
+        console.error(
+          '❌ RSA support is not yet available in CLI mode. Please use ed25519.'
+        )
+        process.exit(1)
+      }
+
       if (!keyInput) {
         console.error('❌ Error: --key is required')
         process.exit(1)
@@ -194,6 +201,12 @@ cli
   .option('--public', 'Output public key file path')
   .describe('generate a private/public key pair')
   .action(async (opts) => {
+    if (opts.algo === 'rsa') {
+      console.error(
+        '❌ RSA support is not yet available in CLI mode. Please use ed25519.'
+      )
+      process.exit(1)
+    }
     const cryptoImpl = cryptoAlgorithms[opts.algo]
     if (!cryptoImpl) {
       console.error(`❌ Unsupported algorithm: ${opts.algo}`)
