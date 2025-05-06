@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/vasco-santos/varsig/compare/v0.1.0...v0.1.1) (2025-05-06)
+
+
+### Bug Fixes
+
+* add pnpm to release workflow ([375583a](https://github.com/vasco-santos/varsig/commit/375583a27f728881013d1d65cfedf5b9882c7736))
+
 ## 0.1.0 (2025-05-06)
 
 
