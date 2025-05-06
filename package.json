@@ -6,6 +6,7 @@
   "license": "Apache-2.0 OR MIT",
   "type": "module",
   "main": "src/index.js",
+  "types": "dist/src/index.d.ts",
   "bin": {
     "varsig-cli": "src/bin.js"
   },
@@ -60,6 +61,7 @@
     ".": "./dist/src/index.js",
     "./crypto/bls": "./dist/src/crypto/bls.js",
     "./crypto/ed25519": "./dist/src/crypto/ed25519.js",
+    "./crypto/index": "./dist/src/crypto/index.js",
     "./crypto/rsa": "./dist/src/crypto/rsa.js",
     "./types": "./dist/src/api.js"
   },
@@ -68,20 +70,17 @@
       "types": [
         "dist/src/api"
       ],
-      "writer": [
-        "dist/src/writer.d.ts"
+      "crypto/bls": [
+        "dist/src/crypto/bls.d.ts"
       ],
-      "reader": [
-        "dist/src/reader.d.ts"
+      "crypto/ed25519": [
+        "dist/src/crypto/ed25519.d.ts"
       ],
-      "store/bls": [
-        "dist/src/store/bls.d.ts"
+      "crypto/index": [
+        "dist/src/crypto/index.d.ts"
       ],
-      "store/ed25519": [
-        "dist/src/store/ed25519.d.ts"
-      ],
-      "store/rsa": [
-        "dist/src/store/rsa.d.ts"
+      "crypto/rsa": [
+        "dist/src/crypto/rsa.d.ts"
       ]
     }
   },
