@@ -4,6 +4,8 @@
 
 Provides utilities to **create**, **verify**, and **inspect** compact, self-describing digital signatures supporting multiple cryptographic algorithms.
 
+For more information, read the [spec](https://github.com/ChainAgnostic/varsig/tree/main).
+
 ## ✨ Features
 
 - ✅ Create varsig signatures
