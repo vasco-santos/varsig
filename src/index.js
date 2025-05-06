@@ -3,7 +3,7 @@ import * as API from './api.js'
 import { varint } from 'multiformats'
 import { toString } from 'uint8arrays'
 
-import { cryptoAlgorithms } from './crypto/index.js'
+import { cryptoAlgorithms } from './crypto/implementations.js'
 import {
   VARSIG_PREFIX,
   SIGNATURE_HEADER_TAGS,

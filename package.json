@@ -61,7 +61,7 @@
     ".": "./dist/src/index.js",
     "./crypto/bls": "./dist/src/crypto/bls.js",
     "./crypto/ed25519": "./dist/src/crypto/ed25519.js",
-    "./crypto/index": "./dist/src/crypto/index.js",
+    "./crypto/implementations": "./dist/src/crypto/implementations.js",
     "./crypto/rsa": "./dist/src/crypto/rsa.js",
     "./types": "./dist/src/api.js"
   },
@@ -76,8 +76,8 @@
       "crypto/ed25519": [
         "dist/src/crypto/ed25519.d.ts"
       ],
-      "crypto/index": [
-        "dist/src/crypto/index.d.ts"
+      "crypto/implementations": [
+        "dist/src/crypto/implementations.d.ts"
       ],
       "crypto/rsa": [
         "dist/src/crypto/rsa.d.ts"
