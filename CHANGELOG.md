@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.3](https://github.com/vasco-santos/varsig/compare/v0.1.0...v0.1.3) (2025-05-06)
+
+
+### Bug Fixes
+
+* add pnpm to release workflow ([375583a](https://github.com/vasco-santos/varsig/commit/375583a27f728881013d1d65cfedf5b9882c7736))
+* disable rsa for cli ([be26754](https://github.com/vasco-santos/varsig/commit/be2675471e93453bb2bc7f56251bd0edbda2c669))
+* exports types ([a1d73b1](https://github.com/vasco-santos/varsig/commit/a1d73b11c0e06abfc13a752127629d0abc8eea28))
+
 ## 0.1.0 (2025-05-06)
 
 
