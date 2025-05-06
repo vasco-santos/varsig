@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/vasco-santos/varsig/compare/v0.1.3...v0.1.4) (2025-05-06)
+
+
+### Bug Fixes
+
+* crypto implementations file export ([#8](https://github.com/vasco-santos/varsig/issues/8)) ([da892de](https://github.com/vasco-santos/varsig/commit/da892de7b991d066685a47b7ada767813bb98b1a))
+
 ## [0.1.3](https://github.com/vasco-santos/varsig/compare/v0.1.0...v0.1.3) (2025-05-06)
 
 
